@@ -1,0 +1,56 @@
+/*
+ * Default / Desktop Settings
+ */
+html,
+body {
+  background-color: #ffffff;
+  font-family: 'Lato','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+body {
+  color: #99bcdb;
+}
+
+/* Links */
+a {
+  color: #99bcdb;
+}
+a:focus,
+a:hover {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+/*
+ * Content
+ */
+div.page {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+div.content {
+  padding-top: 20%;
+  font-size: 20px;
+  text-align: center;
+}
+div.content h1 {
+  font-size: 44px;
+  letter-spacing: .1em;
+}
+
+div.content div.column {
+  padding-top: 16px;
+}
+
+/*
+ * Mobile Settings
+ */
+@media (max-width: 768px) {
+  div.content {
+    font-size: 16px;
+  }
+
+  div.content h1 {
+    font-size: 24px;
+  }
+}
